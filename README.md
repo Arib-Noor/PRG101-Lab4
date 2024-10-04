@@ -216,7 +216,7 @@ In this next example, write a function `sum` that takes two numbers as parameter
 -  Call the main function inside the condition:
  
   ``` python
-if __name__ == __main__:
+if __name__ == "__main__":
 main()
 ```
 Note that the above line checks whether the script is being run directly or being imported as a module. If it's run directly, main() is called.
@@ -254,7 +254,7 @@ When calling the function, the first argument provided is assigned to the first 
 ### Writing the complete calculator function using keyword parameters
 Keyword parameters (or keyword arguments) are arguments passed to a function by explicitly naming each parameter, allowing you to pass arguments out of order.
 - Fill in the required feilds in the comment section.
-- copy the code from lab4d.py and modify the parameters to behave as keyword parameters rather than potional parameters.
+- copy the code from lab4i.py and modify the parameters to behave as keyword parameters rather than potional parameters.
 - Refer to lesson slides if you need help on how to use keyword arguments.
 
 ## lab4k.py
